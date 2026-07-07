@@ -17,14 +17,14 @@ export async function POST(req: Request) {
       port: 465,
       secure: true, // Use SSL
       auth: {
-        user: process.env.SMTP_EMAIL,
-        pass: process.env.SMTP_PASSWORD,
+        user: "shivanshu.deific@gmail.com",
+        pass: "psis knhm eccm sedu", // Try with spaces
       },
     });
 
     const mailOptions = {
-      from: process.env.SMTP_EMAIL,
-      to: process.env.SMTP_EMAIL,
+      from: "shivanshu.deific@gmail.com",
+      to: "sb652515@gmail.com", // Forward all contact form submissions to this address
       subject: `New Contact Form Submission from ${name}`,
       text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
     };
