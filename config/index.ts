@@ -1,9 +1,13 @@
 import type { Metadata } from "next";
 
 export const siteConfig: Metadata = {
-  title: "John Doe | Space Portfolio",
-  description: "Welcome to my full stack Next.js 14 space portfolio.",
+  title: "Shivanshu | Web Developer & Software Engineer Portfolio",
+  description: "Portfolio of a full stack developer, web developer, software engineer, and digital marketing expert building modern and interactive web applications.",
   keywords: [
+    "web developer",
+    "full stack developer",
+    "software engineer",
+    "digital marketing",
     "reactjs",
     "nextjs",
     "vercel",
@@ -36,6 +40,16 @@ export const siteConfig: Metadata = {
   ] as Array<string>,
   authors: {
     name: "Sanidhya Kumar Verma",
-    url: "https://github.com/sanidhyy",
+    url: "#",
+  },
+  openGraph: {
+    title: "Shivanshu | Web Developer & Software Engineer Portfolio",
+    description: "Portfolio of a full stack developer, web developer, software engineer, and digital marketing expert.",
+    type: "website",
+    url: "#",
+    siteName: "Space Portfolio",
+  },
+  icons: {
+    icon: "/logo.png",
   },
 } as const;

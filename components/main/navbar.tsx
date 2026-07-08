@@ -53,7 +53,7 @@ export const Navbar = () => {
               target="_blank"
               rel="noreferrer noopener"
               key={name}
-              className="rounded-full border border-white/10 bg-white/5 p-2 text-white transition hover:border-cyan-300/40 hover:bg-white/10 hover:text-cyan-300"
+              className="rounded-full border border-white/10 p-2 text-white transition hover:border-cyan-300/40 hover:bg-white/10 hover:text-cyan-300"
             >
               <Icon className="h-5 w-5" />
             </Link>
